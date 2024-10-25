@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{CA124C64-2668-49AF-9EA5-68CAB2BAA367}">
+	<children>
+		<child name="bdd_python" key="{BBF1C5F8-4B03-4BFB-80C6-A6B034E61536}" path="bdd_python\bdd_python.mds" />
+	</children>
+	<testItems key="{DCFD8E84-9835-48E8-A0E3-B75EA239F808}">
+		<children>
+			<testItem key="{BBF1C5F8-4B03-4BFB-80C6-A6B034E61536}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{5E24A671-6635-4BC4-975D-AA525DCC2788}" />
+	<analysis key="{45AF4033-4320-4809-918D-E2FE73F94BBA}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="StepDefinitions" key="{0FFC0377-7826-453A-B514-8DE85DA53D86}" path="StepDefinitions.py" />
+		<child name="Hooks" key="{CD2D9FA0-1D3E-4B2C-ACD4-71A3AD469170}" path="Hooks.py" />
+		<child name="commonMethods" key="{D37B8984-B7C7-419E-80D2-ADBD374E49FF}" path="commonMethods.py" />
+	</children>
+</Root>

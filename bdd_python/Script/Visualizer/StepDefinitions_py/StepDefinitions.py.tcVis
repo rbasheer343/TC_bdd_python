@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{0FFC0377-7826-453A-B514-8DE85DA53D86}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45588.5627662037" objectName="Aliases.browser.pageBestBuyShopOnlineForDealsSav.headerOrderStatus.linkMyBestBuyAccount.textnodeMyBestBuyAccount" objectLeft="2446" objectTop="478" objectRight="2730" objectBottom="516" clickPointX="2559" clickPointY="494" imageFileName="tcvi88544215720.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="20" kind="0" dateTime="45588.5647569444" objectName="Aliases.browser.pageSignin.formSignin.buttonSignIn" objectLeft="526" objectTop="1176" objectRight="878" objectBottom="1272" clickPointX="682" clickPointY="1236" imageFileName="tcvi90267965720.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

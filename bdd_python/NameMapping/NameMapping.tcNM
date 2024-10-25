@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{2AB282BA-D1A5-4B6E-A467-4AEB8641AEBA}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{53B709F9-8874-4376-892F-0C688A628092}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{36B4810A-4229-4ABE-840B-CCA27CDB28FB}">
+								<Image FileName="-592548481" Left="0" Top="0" Right="1680" Bottom="1960" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSignin" Key="{F927F25C-7CD5-4D7C-80D5-D90DED2D57E2}">
+								<Image FileName="-1457239659" Left="13" Top="174" Right="1667" Bottom="1948" />
+								<TypeInfo Item0="{0ED9CA70-8621-4B1F-9753-5A4CC4C4501F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.bestbuy.ca/authentication/en-ca/signin*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSignin" Key="{C862F4AC-77AD-46B7-B7EA-D03E34F345DA}">
+										<Image FileName="-2104518736" Left="269" Top="736" Right="1037" Bottom="1224" />
+										<Selectors>
+											<Selector>
+												<Value Value="#signIn" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Email Address&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;styles-module_bbyForm__oQbPS&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmailAddress" Key="{27A70CA1-B1D6-4171-A64F-67A6264B7E68}">
+										<Image FileName="-2104518736" Left="269" Top="782" Right="1037" Bottom="878" />
+										<TypeInfo Item0="{12CA842D-46AF-4541-A16B-232D5014482E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email Address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/fieldset/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{967D4B0E-C013-4B3E-9325-2B63616E25FD}">
+										<Image FileName="2023804093" Left="269" Top="956" Right="1037" Bottom="1052" />
+										<TypeInfo Item0="{CA6CFE47-82F8-4750-9874-B0B99AF489A6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/fieldset/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignIn" Key="{61B7D235-8814-4529-BBE5-45F25B81CD1F}">
+										<Image FileName="1153079944" Left="269" Top="1128" Right="621" Bottom="1224" />
+										<TypeInfo Item0="{60BEF0DC-41C0-4DAF-AEF2-5FA4C093EF5C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;style-module_button__ucc8a&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;signIn&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSorryTheEMailAddressAnd" Key="{E6E738B8-0661-4612-81F3-A7AB003BF92E}">
+										<Image FileName="1913369578" Left="655" Top="803" Right="1287" Bottom="883" />
+										<TypeInfo Item0="{A01A747B-C7A2-45F7-B312-D9ADBAC68334}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[@data-automation=&apos;form-warning-message&apos;]//div/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelPleaseEnterAValidEmail" Key="{4B56BBD4-F2B8-4B43-AC09-7387EFC34C03}">
+										<Image FileName="1913369578" Left="539" Top="1109" Right="1323" Bottom="1141" />
+										<TypeInfo Item0="{A01A747B-C7A2-45F7-B312-D9ADBAC68334}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Please enter a valid email address.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/fieldset/div//div[contains(@class, &apos;error-msg&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelPleaseEnterYourPasswordIt" Key="{43100D76-7FBE-474F-BE47-30523A92D446}">
+										<Image FileName="1913369578" Left="539" Top="1331" Right="1323" Bottom="1395" />
+										<TypeInfo Item0="{A01A747B-C7A2-45F7-B312-D9ADBAC68334}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/fieldset/div[2]//div[contains(@class, &apos;error-msg&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEnjoyASmootherShopping" Key="{FF60587A-16B1-43A3-B338-D90E9314E826}">
+										<Image FileName="1913369578" Left="539" Top="647" Right="2907" Bottom="687" />
+										<TypeInfo Item0="{A01A747B-C7A2-45F7-B312-D9ADBAC68334}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Enjoy a smoother shopping experience both in-store and online.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;page-subtitle_Yj0Sp&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEnCa" Key="{F1F5729E-7B3A-4460-BCA0-C41E0B69E162}">
+								<Image FileName="-1169115709" Left="13" Top="187" Right="3433" Bottom="2013" />
+								<TypeInfo Item0="{F86F3E1A-3134-41E0-8FDD-D2DCF9B17088}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.bestbuy.ca/account/en-ca" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="accountGreetings" Key="{B411DBA9-EC9A-4C23-B8AC-625A38558C73}">
+										<Image FileName="-1169115709" Left="474" Top="835" Right="1066" Bottom="1085" />
+										<TypeInfo Item0="{A01A747B-C7A2-45F7-B312-D9ADBAC68334}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h2[@data-automation=&apos;account-greeting&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;account-dashboard-header_vVeWb&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWelcomeToMyBestBuy" Key="{3B856E10-17C4-4FDC-8EF2-473BF36DE61D}">
+										<Image FileName="-1169115709" Left="474" Top="1033" Right="941" Bottom="1080" />
+										<TypeInfo Item0="{A01A747B-C7A2-45F7-B312-D9ADBAC68334}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Welcome to My Best Buy.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignOut" Key="{F7466220-2560-413E-AE66-B92C9C0956A4}">
+										<Image FileName="1384413832" Left="2657" Top="1748" Right="2772" Bottom="1796" />
+										<TypeInfo Item0="{12CA842D-46AF-4541-A16B-232D5014482E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Sign Out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;style-module_accountLabel__yJqvg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[10]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUser" Key="{089FC240-D363-4F86-A066-5FFDE01B3128}">
+										<Image FileName="1351514374" Left="2589" Top="481" Right="2698" Bottom="523" />
+										<TypeInfo Item0="{12CA842D-46AF-4541-A16B-232D5014482E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[@data-automation=&apos;greeting-link&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a//span/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="accountMenu" Key="{5A7DC068-340B-443D-B442-25C4CB76E1BF}">
+										<Image FileName="2048149170" Left="2558" Top="383" Right="2997" Bottom="1685" />
+										<TypeInfo Item0="{A01A747B-C7A2-45F7-B312-D9ADBAC68334}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//ul[@data-automation=&apos;account-menu-content&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerOrderStatus" Key="{D871A442-9D5A-49A5-9455-BB91B97D992C}">
+										<Image FileName="-1549169175" Left="13" Top="371" Right="3399" Bottom="691" />
+										<TypeInfo Item0="{A01A747B-C7A2-45F7-B312-D9ADBAC68334}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Order Status&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@role=&apos;banner&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOutletSale" Key="{15302A2B-33AE-4C93-BFAC-0F3EFF282497}">
+										<Image FileName="-1549169175" Left="1138" Top="624" Right="1349" Bottom="661" />
+										<TypeInfo Item0="{A01A747B-C7A2-45F7-B312-D9ADBAC68334}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Outlet Sale&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBestBuyShopOnlineForDealsSav" Key="{8E2CCD83-8C07-4DA1-80A4-D4CDE4DDF295}">
+								<Image FileName="-792519775" Left="0" Top="174" Right="3420" Bottom="2002" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.bestbuy.ca/en-ca" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkMyBestBuyAccount" Key="{1B4E5DE6-8055-4482-BFA4-60AB2C37CCC8}">
+										<Image FileName="183034799" Left="2395" Top="491" Right="2767" Bottom="539" />
+										<TypeInfo Item0="{A66D6426-C4F8-40E3-BEF6-98FF52D54EB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[@data-automation=&apos;sign-in-text&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{53B709F9-8874-4376-892F-0C688A628092}">
+			<Child Name="BrowserWindow" Owner="{36B4810A-4229-4ABE-840B-CCA27CDB28FB}" />
+			<Child Name="pageSignin" Owner="{F927F25C-7CD5-4D7C-80D5-D90DED2D57E2}">
+				<Child Name="formSignin" Owner="{C862F4AC-77AD-46B7-B7EA-D03E34F345DA}">
+					<Child Name="passwordboxPassword" Owner="{967D4B0E-C013-4B3E-9325-2B63616E25FD}" />
+					<Child Name="buttonSignIn" Owner="{61B7D235-8814-4529-BBE5-45F25B81CD1F}" />
+					<Child Name="emailinputEmailAddress" Owner="{27A70CA1-B1D6-4171-A64F-67A6264B7E68}" />
+					<Child Name="panelPleaseEnterAValidEmail" Owner="{4B56BBD4-F2B8-4B43-AC09-7387EFC34C03}" />
+					<Child Name="panelPleaseEnterYourPasswordIt" Owner="{43100D76-7FBE-474F-BE47-30523A92D446}" />
+					<Child Name="textnodeSorryTheEMailAddressAnd" Owner="{E6E738B8-0661-4612-81F3-A7AB003BF92E}" />
+				</Child>
+				<Child Name="textnodeEnjoyASmootherShopping" Owner="{FF60587A-16B1-43A3-B338-D90E9314E826}" />
+			</Child>
+			<Child Name="pageBestBuyShopOnline" Owner="{8E2CCD83-8C07-4DA1-80A4-D4CDE4DDF295}">
+				<Child Name="linkMyBestBuyAccount" Owner="{1B4E5DE6-8055-4482-BFA4-60AB2C37CCC8}" />
+			</Child>
+			<Child Name="pageEnCa" Owner="{F1F5729E-7B3A-4460-BCA0-C41E0B69E162}">
+				<Child Name="accountGreetings" Owner="{B411DBA9-EC9A-4C23-B8AC-625A38558C73}">
+					<Child Name="textnodeWelcomeToMyBestBuy" Owner="{3B856E10-17C4-4FDC-8EF2-473BF36DE61D}" />
+				</Child>
+				<Child Name="textnodeUser" Owner="{089FC240-D363-4F86-A066-5FFDE01B3128}" />
+				<Child Name="accountMenu" Owner="{5A7DC068-340B-443D-B442-25C4CB76E1BF}">
+					<Child Name="textnodeSignOut" Owner="{F7466220-2560-413E-AE66-B92C9C0956A4}" />
+				</Child>
+				<Child Name="headerOrderStatus" Owner="{D871A442-9D5A-49A5-9455-BB91B97D992C}">
+					<Child Name="textnodeOutletSale" Owner="{15302A2B-33AE-4C93-BFAC-0F3EFF282497}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
